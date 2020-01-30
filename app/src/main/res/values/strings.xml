@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">expired</string>
+    <string name="app_title">EXPIRED</string>
+    <string name="manual_input">Manual Input</string>
     <string name="all_item">"ALL\n ITEMS"</string>
     <string name="recent_items">RECENT ITEMS</string>
+    <string name="item_saved">Item\nSuccessfully\nSaved!</string>
 </resources>
