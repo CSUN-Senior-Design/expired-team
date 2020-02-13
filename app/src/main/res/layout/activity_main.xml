@@ -60,4 +60,18 @@
         android:layout_above="@id/recent_items_container"
         android:textColor="@android:color/black"/>
 
+    <Button
+        android:id="@+id/ScanButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentRight="false"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/manual_input_btn"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="@string/scan_item" />
+
+
 </RelativeLayout>
