@@ -1,0 +1,1 @@
+barcode(int)	product_name(string)	brand_name(string)	category(enum)	period_after_opening(int,days)	shelf_life(int,days)
