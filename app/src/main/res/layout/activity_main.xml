@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="EXPIRED"
+        android:text="@string/StringInputs"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="32dp"
@@ -17,15 +17,19 @@
         android:textColor="@android:color/black"/>
 
     <info.hoang8f.widget.FButton
+
         fbutton:fButtonColor="@color/manual_input_bg"
-        android:text="Manual Input"
+        android:text="@string/ManualInputs"
         fbutton:shadowEnabled="false"
         fbutton:cornerRadius="8dp"
         android:layout_centerInParent="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingLeft="16dp"
-        android:paddingRight="16dp"/>
+        android:paddingRight="16dp"
+        android:onClick="OnButtonClick"
+        android:id="@+id/manualButton"/>
+
 
     <LinearLayout
         android:id="@+id/recent_items_container"
