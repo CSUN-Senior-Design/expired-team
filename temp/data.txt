@@ -1,1 +1,5 @@
-barcode(int)	product_name(string)	brand_name(string)	category(enum)	period_after_opening(int,days)	shelf_life(int,days)
+barcode(int,upc)	product_name(string)	brand_name(string)	category(enum)	period_after_opening(int,days)	shelf_life(int,days)
+045363370216	#FauxFilter Foundation	Huda Beauty	foundation	N/A	N/A
+788329495126	Liquid Matte Lipstick	Huda Beauty	lips	N/A	N/A
+773602561292	Mini MAC	MAC	lips	N/A	N/A
+773602396566	MAC Pigment	MAC	lips	N/A	N/A
