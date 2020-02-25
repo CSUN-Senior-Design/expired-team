@@ -1,6 +1,7 @@
 package com.com490.expiredteam.expired;
 
 import android.os.Bundle;
+
 import android.support.v7.app.AppCompatActivity;
 
 import com.google.zxing.Result;
