@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         ScanButton.setOnClickListener {
-            val intent = Intent(this, ScanCodeActivity::class.java)
+            val intent = Intent(this, ScanningPage::class.java)
             startActivity(intent)
         }
     }
