@@ -2,7 +2,6 @@ package com.com490.expiredteam.expired;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
-
 import com.google.zxing.Result;
 
 import me.dm7.barcodescanner.zxing.ZXingScannerView;

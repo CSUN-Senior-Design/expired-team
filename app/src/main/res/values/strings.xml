@@ -1,5 +1,15 @@
 <resources>
     <string name="app_name">expired</string>
+
+    <string name="title_activity_product_page">ProductPage</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="product_name">Product Name:</string>
+    <string name="brand">Brand:</string>
+    <string name="poa">POA:</string>
+    <string name="entry_open_date">Entry/Open Date:</string>
+    <string name="unique_id">Unique ID:</string>
+    <string name="productimage">ProductImage</string>
     <string name="app_title">EXPIRED</string>
     <string name="manual_input">Manual Input</string>
     <string name="all_item">"ALL\n ITEMS"</string>
