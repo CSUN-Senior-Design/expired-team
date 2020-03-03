@@ -14,6 +14,11 @@
     <string name="manual_input">Manual Input</string>
     <string name="all_item">"ALL\n ITEMS"</string>
     <string name="recent_items">RECENT ITEMS</string>
+
+    <string name="StringInputs">EXPIRED</string>
+    <string name="ManualInputs">Manual Input</string>
+
     <string name="item_saved">Item\nSuccessfully\nSaved!</string>
     <string name="scan_item">Scan</string>
+
 </resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".manualinputPage">
+
+
+    <LinearLayout
+        android:id="@+id/recent_items_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-3dp"
+        android:background="@color/recent_items_bg"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="21dp"
+        android:paddingBottom="21dp">
+
+
+    </LinearLayout>
+
+
+
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="148dp"
+        android:layout_height="51dp"
+        android:text="Cancel"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="55dp"
+        android:layout_marginStart="35dp"
+        android:background="#CE2F0D"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="148dp"
+        android:layout_height="51dp"
+        android:text="Add Item"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="55dp"
+        android:layout_marginEnd="35dp"
+        android:background="#038819"/>
+
+    <TextView
+        android:id="@+id/categoryText"
+        android:layout_width="100dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="50dp"
+        android:text="Category:"
+        android:gravity="center"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/brandText"
+        android:layout_width="100dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginStart="50dp"
+        android:text="Brand:"
+        android:gravity="center"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/paoText"
+        android:layout_width="100dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginStart="50dp"
+        android:text="PAO"
+        android:gravity="center"
+        android:textSize="17sp"/>
+
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="200dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="175dp"/>
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="200dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="175dp"
+        android:layout_below="@+id/spinner1"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="200dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/editText2"
+        android:inputType="textPersonName"
+        android:hint="(Period After Opening)"
+         />
+
+
+
+
+</RelativeLayout>
