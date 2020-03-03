@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="EXPIRED"
+        android:text="@string/StringInputs"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="32dp"
@@ -17,15 +17,23 @@
         android:textColor="@android:color/black"/>
 
     <info.hoang8f.widget.FButton
+
+
+
+        android:text="@string/ManualInputs"
+        android:id="@+id/manualButton"
         fbutton:fButtonColor="@color/manual_input_bg"
-        android:text="Manual Input"
+
         fbutton:shadowEnabled="false"
         fbutton:cornerRadius="8dp"
         android:layout_centerInParent="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingLeft="16dp"
-        android:paddingRight="16dp"/>
+        android:paddingRight="16dp"
+
+        />
+
 
     <LinearLayout
         android:id="@+id/recent_items_container"
@@ -61,14 +69,13 @@
 
     <Button
         android:id="@+id/ScanButton"
-        android:layout_width="137dp"
-        android:layout_height="61dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignWithParentIfMissing="false"
         android:layout_alignParentStart="false"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="false"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="259dp"
+        android:layout_above="@+id/manualButton"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
         android:text="@string/scan_item" />
