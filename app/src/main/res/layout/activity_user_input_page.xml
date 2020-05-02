@@ -23,29 +23,27 @@
     </LinearLayout>
 
 
-
-
-
     <Button
         android:id="@+id/button2"
         android:layout_width="148dp"
         android:layout_height="51dp"
-        android:text="Cancel"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="55dp"
         android:layout_marginStart="35dp"
-        android:background="#CE2F0D"/>
+        android:layout_marginBottom="55dp"
+        android:background="#CE2F0D"
+        android:text="@string/cancel" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="148dp"
         android:layout_height="51dp"
-        android:text="Add Item"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginBottom="55dp"
+        android:layout_alignParentBottom="true"
         android:layout_marginEnd="35dp"
-        android:background="#038819"/>
+        android:layout_marginBottom="55dp"
+        android:background="#038819"
+        android:onClick="saveProduct"
+        android:text="@string/add_item" />
 
     <TextView
         android:id="@+id/categoryText"
@@ -87,7 +85,7 @@
 
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/brand_button"
         android:layout_width="200dp"
         android:layout_height="41dp"
         android:ems="10"
@@ -99,13 +97,13 @@
         tools:layout_editor_absoluteY="218dp" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/PAO_button"
         android:layout_width="200dp"
         android:layout_height="41dp"
         android:ems="10"
         android:layout_marginStart="175dp"
         android:layout_marginTop="10dp"
-        android:layout_below="@+id/editText2"
+        android:layout_below="@+id/brand_button"
         android:inputType="textPersonName"
         android:hint="(Period After Opening)"
          />

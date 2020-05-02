@@ -1,30 +1,30 @@
 package com.com490.expiredteam.expired;
 
+import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
-@Entity
+@Entity(tableName = "Products")
 public class Product
 {
 
-    @PrimaryKey
-    private int id;
+    @PrimaryKey(autoGenerate = true)
+     int id;
     //barcode, hold on that
-
+    @ColumnInfo(name = "Name")
     private String name;
 
+    @ColumnInfo(name = "Brand")
     private String brand;
 
+    @ColumnInfo(name = "Period")
+    private String poa;
     //private String category;
+
 
     public int getId() {
         return id;
     }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
     public String getName() {
         return name;
     }
@@ -40,6 +40,12 @@ public class Product
     public void setBrand(String brand) {
         this.brand = brand;
     }
+
+    public void setPoa(String poa){this.poa = poa; }
+    public String getPoa(){
+        return poa;
+    }
+
 
 
 }
